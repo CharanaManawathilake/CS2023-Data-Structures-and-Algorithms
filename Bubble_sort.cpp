@@ -23,8 +23,4 @@ int main()
   auto stop = high_resolution_clock::now();
   auto duration = duration_cast<milliseconds>(stop - start);
   cout << "Time taken : " << duration.count() << "ms" << endl;
-  // for (int k = 0; k < n; k++)
-  // {
-  //   cout << array1[k] << endl;
-  // }
 }
